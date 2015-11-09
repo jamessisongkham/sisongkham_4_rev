@@ -1,0 +1,33 @@
+digraph simple_map {
+
+A [label="start"]         // node B
+B [label="enter castle"]    // node E
+C [label="eat food"] 
+D [label="drink mysterious potion"]
+E [label="pick up sword"]
+F [label="put in inventory"]
+G [label="gain health"]
+I [label="die"]
+J [label="enter room #2"]
+K [label="kill everyone in the room"]
+L [label="talk to the first person you see"]
+
+
+
+
+A->B [label="commands" , fontcolor=darkgreen ]
+B -> C
+B -> D 
+B -> E
+C -> G
+E -> F
+G -> J
+D -> I
+F -> J
+J -> K
+J -> L
+K -> I
+
+
+
+}
