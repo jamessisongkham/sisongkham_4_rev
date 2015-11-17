@@ -11,11 +11,17 @@ I [label="die"]
 J [label="enter room #2"]
 K [label="attempt to kill everyone in the room"]
 L [label="talk to the first person you see"]
+M [label="talk to second person you see"]
+N [label="talk to last person you see"]
+O [label="you offend him and he tries to kill you but you fight back and end up killing him with your sword"]
+P [label="obtain a follower"]
+Q [label="ask you to get ingredients for potion"]
+R [label="enter room #3"]
 
 
 
 
-A->B [label="commands" , fontcolor=darkgreen ]
+A -> B [label="goal = assassinate the king" fontcolor = darkgreen
 B -> C
 B -> D 
 B -> E
@@ -26,7 +32,15 @@ D -> I
 F -> J
 J -> K
 J -> L
+J -> M
+J -> N
 K -> I
+L -> O
+M -> P
+N -> Q
+O -> R
+P -> N
+P -> R
 
 
 
