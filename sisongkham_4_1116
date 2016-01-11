@@ -1,6 +1,6 @@
 No, really, How will you use methods in your game? Why?
 i would use public static void
 Be specific.
-
+i would use them by setting up ways my player can gain and lose healthpoints
 What values will you pass to them?
-idk
+health=+ 100
