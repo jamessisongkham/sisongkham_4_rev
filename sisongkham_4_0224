@@ -1,0 +1,7 @@
+Define a class Rat
+it is a class named rat
+Provide the code to declare and instatiate Rats
+rats = new Player();
+Explain where the decaration and initialization are placed
+under the class constuctor
+Provode a two-dimensional array that specifies coordinates for five rats
